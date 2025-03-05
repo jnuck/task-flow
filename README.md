@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TaskFlow
 
-## Getting Started
+## Description
 
-First, run the development server:
+TaskFlow is a dynamic task manager app designed to streamline personal and professional productivity. With its user-friendly interface and robust features, TaskFlow helps users manage their tasks, deadlines, and priorities efficiently, ensuring nothing falls through the cracks.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Main Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Task List:** Browse a well-organised collection of tasks.
+- **Task Details:** View detailed information about each task.
+- **Create Task:** Add new tasks to the task list.
+- **Delete Task:** Remove outdated or unwanted tasks.
+- **Update Task:** Update and modify existing tasks.
+- **Mark Task as Completed:** Track which tasks have been finished.
+- **Sort Tasks:** Sort tasks based on various criteria.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Additional Features Inspiration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+These features are optional and should serve as a conversation starter for upcoming features of the app.
 
-## Learn More
+- **Search Tasks:** Find specific tasks based on keywords, deadlines, or tags.
+- **Create Subtasks:** Break down complex tasks into manageable subtasks.
+- **Set Reminders:** Ensure timely task completion with reminders.
+- **View Today’s Tasks:** Display tasks due today to ensure critical tasks are not overlooked.
+- **Create Multiple Task Lists:** Organise tasks into multiple lists for better overview and management.
+- **Set Recurring Tasks:** Schedule tasks that repeat at regular intervals.
+- **Visualise Task Progress:** View task progress with graphs or charts.
+- **Attach Files:** Add images or documents to tasks for better context.
+- **Get AI Task Suggestions:** Receive AI-generated task suggestions based on your task history and patterns.
 
-To learn more about Next.js, take a look at the following resources:
+## Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- You can find some example data in the [assets folder](./assets/) to get you started.
